@@ -1,0 +1,4 @@
+<%@posts.each do |p|%>
+<b><%=p.heading%></b>
+<%=p.body%>
+<%end%>

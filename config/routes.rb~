@@ -1,9 +1,6 @@
 Newsite::Application.routes.draw do
 
 
-  resources :feedbacks
-
-
   get "posts/new"
 
   get "staticpages/home"
